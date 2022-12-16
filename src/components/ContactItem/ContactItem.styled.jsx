@@ -15,12 +15,14 @@ export const Button = styled.button`
   border-radius: 5px;
   cursor: pointer;
 border:none;
- box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.02);
+ box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  transition: background-color 250ms linear;
   
   :hover,
   :focus {
     background-color: ${props => props.theme.colors.red};
-    transition: all 250ms linear;
+    
   }
  
 `;
