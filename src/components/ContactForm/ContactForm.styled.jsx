@@ -20,9 +20,10 @@ export const BtnAdd = styled.button`
   cursor: pointer;
   border:none;
  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.02);
-  transition: all 250ms linear;
+  
   :hover,
   :focus {
     background-color: ${props => props.theme.colors.green};
+    transition: all 250ms linear;
   }
 `;
