@@ -14,9 +14,13 @@ export const Button = styled.button`
   margin-left: auto;
   border-radius: 5px;
   cursor: pointer;
-
+border:none;
+ box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.02);
+  
   :hover,
   :focus {
-    background-color: ${props => props.theme.colors.accent};
+    background-color: ${props => props.theme.colors.red};
+    transition: all 250ms linear;
   }
+ 
 `;
